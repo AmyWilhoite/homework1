@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
 }
- /* body background */ 
+ /* body background added white text*/ 
 body {
     background-color: #d9dcd6;
     color:white
@@ -44,11 +44,6 @@ a {
     color:white
 }
 
-p {   
-    font-size: 16px;
-    margin-bottom: 32px;
-}
-
  /* large body image formatting */ 
 .hero {
     height: 800px;
@@ -58,15 +53,52 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* style of all paragraph text */ 
+p {   
+    font-size: 16px;
+    margin-bottom: 32px;
+}
  /* main page content semantic name */ 
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+section {    
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+}
+ /* main section style consolidated to 1 vs 3 styles */
+.search-engine-optimization .online-reputation-management .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+}
 
-/* This is the aside content */   
+ /* main images: consolidated styles to 1 vs 3 */
+.mainimage {
+    max-height: 200px;
+    float: left;
+    margin-right: 25px; 
+}
+
+/* main headers: consolidated styles to 1 vs 3 */
+.mainheader {
+    font-size: 36px;
+    margin-bottom: 20px; 
+}
+/* Class for Rep Mgt Section image to float */
+#float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* This is the aside content consolidated */   
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -91,38 +123,6 @@ aside {
     max-width: 150px;
 }
 
- /* main section style consolidated to 1 vs 3 styles */
-.search-engine-optimization .online-reputation-management .social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-}
-section {    
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-}
- /* main images: consolidated styles to 1 vs 3 */
-.mainimage {
-    max-height: 200px;
-    float: left;
-    margin-right: 25px; 
-}
-
-/* main headers: consolidated styles to 1 vs 3 */
-.mainheader {
-    font-size: 36px;
-    margin-bottom: 20px; 
-}
-
-#float-right {
-    float: right;
-    margin-left: 25px;
-}
  /* footer consolidated to 1 vs 2 sections */ 
 footer {
     padding: 30px;
